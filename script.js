@@ -1,4 +1,4 @@
-
+// First comment
 
 // Function to find the shortest path
 import { shortestPathSearch } from './shortestPathSearch.js';

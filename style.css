@@ -1,0 +1,134 @@
+body {
+  text-align: center;
+  background-color: sandybrown;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+table {
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  background-image: url("weneedtopushlittlecart.png");
+  background-size: cover;
+}
+
+.square1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("wall1.png");
+  background-size: cover;
+}
+
+.square2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("wall2.png");
+  background-size: cover;
+}
+
+.square3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("wall3.png");
+  background-size: cover;
+}
+
+.square4 {
+  width: 100%;
+  height: 100%;
+  background-image: url("wall4.png");
+  background-size: cover;
+}
+
+.coin {
+  width: 100%;
+  height: 100%;
+  background-image: url("jandidicoingoofy.png");
+  background-size: cover;
+}
+
+.score-counter {
+  font-size: 30px;
+  margin-top: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  ;
+}
+
+.npc {
+  width: 100%;
+  height: 100%;
+  background-image: url("npc.png");
+  background-size: cover;
+  margin: auto;
+}
+
+#gameOverText {
+  display: none;
+  position: fixed;
+  font-size: 55px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+  z-index: 2;
+}
+
+#gameOverText p {
+  line-height: 0px;
+}
+
+#controls {
+  display: block;
+  position: fixed;
+  font-size: 35px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+  z-index: 2;
+}
+
+#overlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(5px);
+  z-index: 1;
+}
+
+#waitForKey {
+  display: block;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.powerup {
+  width: 100%;
+  height: 100%;
+  background-image: url("powerup.png");
+  background-size: cover;
+}
+

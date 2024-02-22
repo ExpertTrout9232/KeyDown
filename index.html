@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test page</title>
+  <title>Circle Move Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-    <p>Test page</p>
+  <div id="waitForKey">Press any key to start the game</div>
+  
+  <table id="game-board"></table>
+  <div class="score-counter">0</div>
+
+  <div id="overlay"></div>
+  <div id="gameOverText"></div>
+  <div id="controls">
+    <h1>HOW TO PLAY</h1>
+    <p>The goal of this game is to collect as much coins as you can.</p>
+    <p>Use the arrow keys to move the player.</p>
+    <p>After collecting all coins, a new larger maze will be generated and the speed of the enemy will increase</p>
+    <p>You can use power-ups to slow it down.</p>
+    <p>Good luck!</p>
+    <p><small>Press any key to continue.</small></p>
+  </div>
+  
+  <script src="shortestPathSearch.js" type="module"></script>
+  <script defer src="script.js" type="module">
+
+  </script>
+
 </body>
+
 </html>

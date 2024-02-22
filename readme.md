@@ -1,4 +1,2 @@
-# Moje nove repository 
-Halo guys
-asjdhgsdjkgfkajggggggggghfkjsddfsjksdfsdfdfsjkjksdfjfdskjhsKDLfhlvsbufyalkvjdfkdag
-dsdkhfvabsdlkfvhsdjkfvaaaaaaaafhcksjhdkjhhhhhhhhhhhhhhhhfhuyoiusdhlkhewrjthtwetfiuulh
+# My ne repository
+It is a simple 2d game.

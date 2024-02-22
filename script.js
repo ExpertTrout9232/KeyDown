@@ -1,4 +1,4 @@
-// First comment Impostor
+// First comment sussy baka Impostor
 
 // Function to find the shortest path
 import { shortestPathSearch } from './shortestPathSearch.js';
